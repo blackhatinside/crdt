@@ -3,6 +3,7 @@
 - Simplifies Distributed Systems with Collaborative Environment
 - strongly consistent vs eventually consistent
 - state based vs operation based
+- client-server (websocket) vs p2p (webrtc)
 
 
 # [Yjs](https://github.com/yjs/yjs):
