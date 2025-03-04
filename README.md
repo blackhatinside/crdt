@@ -1,11 +1,11 @@
-## CRDT
+# CRDT
 - Conflict Free Replicated Data Type
 - Simplifies Distributed Systems with Collaborative Environment
 - strongly consistent vs eventually consistent
 - state based vs operation based
 
 
-# Yjs Implementation
+# [Yjs](https://github.com/yjs/yjs):
 
 ## y-doc
 
