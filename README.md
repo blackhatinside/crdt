@@ -7,8 +7,27 @@
 
 ## Yjs Implementation
 
-# y-indexeddb
+# y-doc
+
 ```javascript
-import { IndexeddbPersistence } from 'y-indexeddb'
+const ydoc = new Y.Doc()
 ```
 
+# y-indexeddb:
+offline persistent browser storage for multiple sessions
+
+```bash
+npm i --save y-indexeddb
+```
+
+```javascript
+import { IndexeddbPersistence } from 'y-indexeddb'
+const provider = new IndexeddbPersistence(docName, ydoc)
+```
+
+# y-websocket:
+client server model where clients connect to a single endpoint and server distributes awareness info and doc updates among clients
+
+```bash
+npm i y-websocket
+```
