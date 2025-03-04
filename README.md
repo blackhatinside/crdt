@@ -18,7 +18,7 @@ const ydoc = new Y.Doc()
 offline persistent browser storage for multiple sessions
 
 ```bash
-npm i --save y-indexeddb
+npm i y-indexeddb
 ```
 
 ```javascript
