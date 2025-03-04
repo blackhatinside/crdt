@@ -11,7 +11,7 @@
 npm i yjs
 ```
 
-## [yjs docs]:
+## [yjs docs](https://docs.yjs.dev/):
 ```javascript
 const ydoc = new Y.Doc()
 ```
