@@ -13,7 +13,7 @@
 const ydoc = new Y.Doc()
 ```
 
-# [y-indexeddb]:
+# [y-indexeddb](https://github.com/yjs/y-indexeddb):
 offline persistent browser storage for multiple sessions
 
 ```bash
