@@ -7,9 +7,11 @@
 
 
 # [Yjs](https://github.com/yjs/yjs):
+```bash
+npm i yjs
+```
 
-## y-doc
-
+## [yjs docs]:
 ```javascript
 const ydoc = new Y.Doc()
 ```
