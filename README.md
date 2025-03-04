@@ -5,15 +5,15 @@
 - state based vs operation based
 
 
-## Yjs Implementation
+# Yjs Implementation
 
-# y-doc
+## y-doc
 
 ```javascript
 const ydoc = new Y.Doc()
 ```
 
-# [y-indexeddb](https://github.com/yjs/y-indexeddb):
+## [y-indexeddb](https://github.com/yjs/y-indexeddb):
 offline persistent browser storage for multiple sessions
 
 ```bash
@@ -25,7 +25,7 @@ import { IndexeddbPersistence } from 'y-indexeddb'
 const provider = new IndexeddbPersistence(docName, ydoc)
 ```
 
-# [y-websocket](https://github.com/yjs/y-websocket):
+## [y-websocket](https://github.com/yjs/y-websocket):
 client server model where clients connect to a single endpoint and server distributes awareness info and doc updates among clients
 
 ```bash
