@@ -34,3 +34,8 @@ client server model where clients connect to a single endpoint and server distri
 ```bash
 npm i y-websocket
 ```
+
+```javascript
+import { WebsocketProvider } from 'y-websocket'
+const wsProvider = new WebsocketProvider('ws://localhost:1234', 'my-roomname', doc)
+```
