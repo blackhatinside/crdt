@@ -13,7 +13,10 @@ npm i yjs
 
 ## [yjs docs](https://docs.yjs.dev/):
 ```javascript
+import * as Y from 'yjs'
 const ydoc = new Y.Doc()
+const yarray = ydoc.getArray('my array type')
+const yarrayNested = new Y.Array()
 ```
 
 ## [y-indexeddb](https://github.com/yjs/y-indexeddb):
